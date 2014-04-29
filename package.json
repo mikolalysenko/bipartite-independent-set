@@ -1,20 +1,19 @@
 {
   "name": "bipartite-independent-set",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Maximum independent set for bipartite graph",
   "main": "indepset.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "bipartite-vertex-cover": "~0.0.0"
+    "bipartite-vertex-cover": "^1.0.0"
   },
   "devDependencies": {
-    "tape": "~2.3.2",
-    "tap": "~0.4.8"
+    "tape": "^2.12.3"
   },
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
